@@ -84,6 +84,6 @@ const modelData = [
   },
 ];
 
-exports.model_all = function (req, res) {
+exports.models = function (req, res) {
   res.json(modelData);
 };
