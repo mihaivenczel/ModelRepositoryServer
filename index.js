@@ -17,6 +17,9 @@ var express = require("express"),
 app.get("/models", (req, res) => {
   res.send(modelData);
 });
+app.get("/", (req, res) => {
+  res.send("hello world");
+});
 
 // var routes = require("./routes/modelRoutes"); //importing route
 // routes(app); //register the route
