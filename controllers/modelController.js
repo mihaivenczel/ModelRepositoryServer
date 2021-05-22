@@ -84,6 +84,6 @@ const modelData = [
   },
 ];
 
-exports.models = function (req, res) {
-  res.json(modelData);
+exports.modelslist = function (req, res) {
+  res.send(modelData);
 };
