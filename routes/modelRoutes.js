@@ -4,4 +4,5 @@ module.exports = function (app) {
 
   // todoList Routes
   app.route("/models").get(models.modelslist);
+  app.route(`/model/:name`).get(models.modelName);
 };

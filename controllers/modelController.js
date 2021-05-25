@@ -1,5 +1,7 @@
 "use strict";
 
+var path = require("path");
+var appDir = path.dirname(require.main.filename);
 const modelData = [
   {
     id: 0,
@@ -86,4 +88,10 @@ const modelData = [
 
 exports.modelslist = function (req, res) {
   res.send(modelData);
+};
+
+exports.modelName = function (req, res) {
+  const fileName = req.params.name;
+  const options = { root: path.join(__dirname, `../models/`) };
+  res.sendFile(fileName, options);
 };

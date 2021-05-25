@@ -1,14 +1,3 @@
-const modelData = [
-  {
-    id: 0,
-    title: "Chair 1",
-    description: "Un scaun simplu",
-    fileName: "chair2.obj",
-    searchTag: "scaun",
-    category: "mobila",
-    thumbnail: "generic link",
-  },
-];
 
 var express = require("express"),
   app = express(),
