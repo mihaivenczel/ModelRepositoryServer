@@ -22,9 +22,9 @@ const modelData = [
   },
   {
     id: 2,
-    title: "Chair 1",
+    title: "Chair 5",
     description: "Lorem ipsum sit amet",
-    fileName: "chair2.obj",
+    fileName: "chair5.obj",
     searchTag: "scaun",
     category: "mobila",
   },
