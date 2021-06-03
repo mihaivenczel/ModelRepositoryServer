@@ -51,12 +51,12 @@ const modelData = [
   },
   {
     id: 6,
-    title: "Canapea VED",
+    title: "Canapea VED x",
     description: "Lorem ipsum sit amet",
     fileName: "Canapea_VED.obj",
     searchTag: "Canapea VED",
     category: "Canapea",
-    thumbnail: "Canapea_VED.png",//add pic
+    thumbnail: "Canapea_VED.png",
   },
   {
     id: 7,
@@ -93,7 +93,7 @@ const modelData = [
     fileName: "Gaming_Chair.obj",
     searchTag: "Scaun de Gaming",
     category: "Scaun",
-    thumbnail: "Gaming_Chair.obj",
+    thumbnail: "Gaming_Chair.png",
   },
   {
     id: 11,
@@ -112,7 +112,7 @@ const modelData = [
      fileName: "Scaun_Bucatarie_SKE.obj",
     searchTag: "Scaun Bucatarie SKE",
     category: "Scaun",
-    thumbnail: "Scaun_Bucatarie_SKE.png",//nu am poza
+    thumbnail: "Scaun_Bucatarie_SKE.png",
   },
 ];
 
