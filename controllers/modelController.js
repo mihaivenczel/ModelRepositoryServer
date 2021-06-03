@@ -19,7 +19,7 @@ const modelData = [
     fileName: "sofa1.obj",
     searchTag: "sofa",
     category: "mobila",
-    thumbnail: "",
+    thumbnail: "sofa1.png",
   },
   {
     id: 2,
@@ -28,7 +28,7 @@ const modelData = [
     fileName: "chair5.obj",
     searchTag: "scaun",
     category: "mobila",
-    thumbnail: "",
+    thumbnail: "chair5.png",
   },
   {
     id: 3,
@@ -53,15 +53,6 @@ const modelData = [
     title: "sofa_chair",
     description: "Lorem ipsum sit amet",
     fileName: "sofa_chair.obj",
-    searchTag: "ttt",
-    category: "mobila",
-    thumbnail: "",
-  },
-  {
-    id: 6,
-    title: "Kitchen Table",
-    description: "Lorem ipsum sit amet",
-    fileName: "Kitchen_Table.obj",
     searchTag: "ttt",
     category: "mobila",
     thumbnail: "",
