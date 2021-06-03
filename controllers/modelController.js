@@ -10,7 +10,7 @@ const modelData = [
     fileName: "chair2.obj",
     searchTag: "scaun",
     category: "mobila",
-    thumbnail: "generic link",
+    thumbnail: "chair1.png",
   },
   {
     id: 1,
@@ -19,6 +19,7 @@ const modelData = [
     fileName: "sofa1.obj",
     searchTag: "sofa",
     category: "mobila",
+    thumbnail: "",
   },
   {
     id: 2,
@@ -27,6 +28,7 @@ const modelData = [
     fileName: "chair5.obj",
     searchTag: "scaun",
     category: "mobila",
+    thumbnail: "",
   },
   {
     id: 3,
@@ -35,6 +37,7 @@ const modelData = [
     fileName: "kitchen1.obj",
     searchTag: "ttt",
     category: "mobila",
+    thumbnail: "",
   },
   {
     id: 4,
@@ -43,6 +46,7 @@ const modelData = [
     fileName: "Barstool.obj",
     searchTag: "ttt",
     category: "mobila",
+    thumbnail: "",
   },
   {
     id: 5,
@@ -51,6 +55,7 @@ const modelData = [
     fileName: "sofa_chair.obj",
     searchTag: "ttt",
     category: "mobila",
+    thumbnail: "",
   },
   {
     id: 6,
@@ -59,6 +64,7 @@ const modelData = [
     fileName: "Kitchen_Table.obj",
     searchTag: "ttt",
     category: "mobila",
+    thumbnail: "",
   },
   {
     id: 7,
@@ -67,6 +73,7 @@ const modelData = [
     fileName: "Wardrobe.obj",
     searchTag: "ttt",
     category: "mobila",
+    thumbnail: "",
   },
   {
     id: 8,
@@ -75,14 +82,34 @@ const modelData = [
     fileName: "black_coffee_table.obj",
     searchTag: "ttt",
     category: "mobila",
+    thumbnail: "",
   },
   {
     id: 9,
-    title: "Chair 1",
+    title: "The Couch",
     description: "Lorem ipsum sit amet",
-    fileName: "chair2.obj",
+    fileName: "The_Couch.obj",
     searchTag: "ttt",
     category: "mobila",
+    thumbnail: "",
+  },
+  {
+    id: 10,
+    title: "Gaming_Chair",
+    description: "Lorem ipsum sit amet",
+    fileName: "Gaming_Chair.obj",
+    searchTag: "ttt",
+    category: "mobila",
+    thumbnail: "",
+  },
+  {
+    id: 11,
+    title: "The_Charles_Club_Chair",
+    description: "Lorem ipsum sit amet",
+    fileName: "The_Charles_Club_Chair.obj",
+    searchTag: "ttt",
+    category: "mobila",
+    thumbnail: "",
   },
 ];
 
@@ -95,3 +122,4 @@ exports.modelName = function (req, res) {
   const options = { root: path.join(__dirname, `../models/`) };
   res.sendFile(fileName, options);
 };
+
