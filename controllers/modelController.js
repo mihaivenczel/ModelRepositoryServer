@@ -7,7 +7,7 @@ const modelData = [
     id: 0,
     title: "Scaun RAD",
     description:
-      "Dimensiuni	Lățime: 72 cm,\n Înălțime: 83 cm,\n Adâncime: 80 cm\n     Înălțimea șezutului	38  \n    Dimensiune înainte de asamblat	Lățime: 72 cm, Lungime: 92 cm, Înălțime: 32 cm Greutate	6 kg Material	Cadru: Oțel, Spătar: Polietilenă, Șezut: Polietilenă Caracteristică	Picioare detașabile Tratament	Vopsit electrostatic Culoare	Negru Informații asamblare	Neasamblat Depozitare	A se depozita în interior pe timpul iernii",
+      "Dimensiuni	Lățime: 72 cm,\n Înălțime: 83 cm,\n Adâncime: 80 cm\nÎnălțimea șezutului	38  \nDimensiune înainte de asamblat	Lățime: 72 cm, Lungime: 92 cm, Înălțime: 32 cm Greutate	6 kg Material	Cadru: Oțel, Spătar: Polietilenă, Șezut: Polietilenă Caracteristică	Picioare detașabile Tratament	Vopsit electrostatic Culoare	Negru Informații asamblare	Neasamblat Depozitare	A se depozita în interior pe timpul iernii",
     fileName: "Scaun_Vechi.obj",
     searchTag: "Scaun RAD",
     category: "Scaun",
@@ -108,8 +108,8 @@ const modelData = [
   {
     id: 12,
     title: "Scaun Bucatarie SKE",
-    description:"bucatarie",
-     fileName: "Scaun_Bucatarie_SKE.obj",
+    description: "bucatarie",
+    fileName: "Scaun_Bucatarie_SKE.obj",
     searchTag: "Scaun Bucatarie SKE",
     category: "Scaun",
     thumbnail: "Scaun_Bucatarie_SKE.png",
