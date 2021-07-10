@@ -125,3 +125,9 @@ exports.modelName = function (req, res) {
   const options = { root: path.join(__dirname, `../models/`) };
   res.sendFile(fileName, options);
 };
+
+exports.deleteModel = function (req, res) {
+  let id = req.params.id;
+  delete modelData[id];
+  res.status(204).send();
+};
