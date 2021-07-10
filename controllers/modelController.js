@@ -127,11 +127,9 @@ exports.modelName = function (req, res) {
 };
 
 exports.deleteModel = function (req, res) {
-  const itemIndex = modelData.findIndex(
-    ({ id }) => id === req.params.id
-  );
-  if (itemIndex >= 0) {
-    modelData.splice(itemIndex, 1);
-  }
-  res.status(204).send();
+  let deleteId = req.params.id;
+  let deleteObj = modelData.find((item) => item.id == deleteId);
+  let deleteIndex = modelData.indexOf(deleteObj);
+  modelData.splice(deleteIndex, 1);
+  res.send(deleteObj);
 };
