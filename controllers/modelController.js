@@ -128,7 +128,7 @@ exports.modelName = function (req, res) {
 
 exports.deleteModel = function (req, res) {
   const itemIndex = modelData.findIndex(
-    ({ title }) => title === req.params.title
+    ({ id }) => id === req.params.id
   );
   if (itemIndex >= 0) {
     modelData.splice(itemIndex, 1);
